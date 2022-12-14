@@ -2,7 +2,6 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		/* border: 3px solid black; */
 		background-color: fffff;
 	    height: 100vh;
 		width: 100vw;
@@ -13,7 +12,7 @@
 		.main{
 			background-color: #ffffff;
 			border: 3px rgb(73, 71, 71) solid;
-			padding: 30px;
+			padding: 20px;
 			border-radius: 10px;
 			text-align: center;
 			max-width: 1000px;
@@ -26,10 +25,10 @@
 		font-family: Arial, Helvetica, sans-serif;
 	}
 	
-	input {		    
-		    font-size: 50px;
-			text-align: center;		
-		}
+	/* input {		    
+		    font-size: 1px;
+			text-align: center;	
+		} */
 
 		input:focus {
 			outline: none;
@@ -40,20 +39,17 @@
 			box-shadow: 0 5px 11px 0px grey;
 			border: 2px solid #bcd6ed;
 			}
- 
 		
 		  .code{
 					border-radius: 5px;
-					font-size: 80px;
-					height: 100px;
-					width: 60px;
+					font-size: 60px;
+					height: 90px;
+					width: 69px;
 					border: 1.5px solid lightgrey;
 					text-align: center;
 					font-weight: 300;
 					margin: 1%;
 		  }
-
-
 
 .box4{ 
 	   display: flex;
@@ -71,8 +67,9 @@ p.note{
     background-color: #eeeeee;
     color: #777777b0;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
+	margin: 0;
+	margin-top: 20px;
     /* line-height: 15px; */
 	   
 }
-
